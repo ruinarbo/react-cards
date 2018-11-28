@@ -18,7 +18,7 @@ body, html {
   background-color:#d8d6e7;
 }
 
-@media (min-width: 400px) and (min-height: 400px) {
+/* @media (min-width: 400px) and (min-height: 400px) {
   html {
     font-size: 20px;
   }
@@ -58,9 +58,7 @@ body, html {
         background-size:cover;
         color:red
       }
-    /* body {
-        flex-direction: row;
-      } */
+    
   }
 
 @media (min-width: 500px) and (min-height: 500px) {
@@ -104,18 +102,27 @@ body, html {
     color:red
   }
   
-}
+} */
  
 .button-primary {
     transform: translate(10px, 0);
   }
-/* .card {
-    width:280px;
-    display: block;
-    margin: 60px auto;
+.card {
+    width:166px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
     box-shadow: 10px 5px 40px 20px darken(#341cac, 5%);
     transition: .25s;
-  } */
+  }
+  .card-header {
+    height: 100px;
+    width: 100%;
+    padding: 15px;
+    background-size:cover;
+    color:red
+  }
 
   .logo{
     width: 10%;
@@ -124,7 +131,7 @@ body, html {
  
   
   .card-header--title {
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin: 0;
   }
   

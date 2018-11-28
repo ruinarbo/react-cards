@@ -23,7 +23,6 @@ class CardHeader extends React.Component {
     return (
       <header style={style} id={image} className="card-header">
         <img className="logo" src={logo} alt="My logo" />
-        <h4 className="card-header--title">Yelp</h4>
       </header>
     )
   }
@@ -33,7 +32,7 @@ class CardBody extends React.Component {
     return (
       <div className="card-body">
         <p className="category"> Middle Eastern, Mediterranean</p> 
-        <h2>{this.props.title}</h2>
+        <p>{this.props.title}</p>
         <p className="body-content">{this.props.text}</p>
         <Button />
       </div>
