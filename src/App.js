@@ -1,28 +1,52 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-class App extends Component {
+import './SamsungReactCard.css'
+import logo from './Yelp.svg';
+export default class SamsungReactCard extends Component {
+  constructor(props){
+    super(props)
+  }
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <article className="card">
+        <CardHeader image={'https://s3-media2.fl.yelpcdn.com/bphoto/NfeFZQXrvH5r051M3Lr3uA/o.jpg'}/>
+        <CardBody title={'DishDash'} text={'190 S Murphy Ave Sunnyvale, CA 94086'}/>
+      </article>
+    )
+  }
+}
+class CardHeader extends React.Component {
+  render() {
+    const { image } = this.props;
+    var style = { 
+        backgroundImage: 'url(' + image + ')',
+    };
+    return (
+      <header style={style} id={image} className="card-header">
+        <img className="logo" src={logo} alt="My logo" />
+        <h4 className="card-header--title">Yelp</h4>
+      </header>
+    )
+  }
+}
+class CardBody extends React.Component {
+  render() {
+    return (
+      <div className="card-body">
+        <p className="category"> Middle Eastern, Mediterranean</p> 
+        <h2>{this.props.title}</h2>
+        <p className="body-content">{this.props.text}</p>
+        <Button />
       </div>
-    );
+    )
+  }
+}
+class Button extends React.Component {
+  render() {
+    return (
+      <button className="button button-primary">
+        <i className="fa fa-chevron-right"></i> Show more ...
+      </button>
+    )
   }
 }
 
-export default App;
