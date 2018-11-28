@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/react-cards/static/js/runtime~main.fe733ad8.js"
   },
   {
-    "revision": "d4387023a22b675521c7",
-    "url": "/react-cards/static/js/main.d4387023.chunk.js"
+    "revision": "380f4c60de31739699ea",
+    "url": "/react-cards/static/js/main.380f4c60.chunk.js"
   },
   {
     "revision": "d855c10c80aa95827f2a",
     "url": "/react-cards/static/js/1.d855c10c.chunk.js"
   },
   {
-    "revision": "d4387023a22b675521c7",
-    "url": "/react-cards/static/css/main.f02562ba.chunk.css"
+    "revision": "380f4c60de31739699ea",
+    "url": "/react-cards/static/css/main.e9100ebc.chunk.css"
   },
   {
-    "revision": "63543bcc3079325be3cace79f775f57b",
+    "revision": "287edae7ee443693dc1f3b7a5e8e0e7c",
     "url": "/react-cards/index.html"
   }
 ];
