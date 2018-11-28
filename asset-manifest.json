@@ -1,14 +1,14 @@
 {
-  "main.css": "/react-cards/static/css/main.f02562ba.chunk.css",
-  "main.js": "/react-cards/static/js/main.d9de70e1.chunk.js",
-  "main.js.map": "/react-cards/static/js/main.d9de70e1.chunk.js.map",
-  "static/js/1.f867e0e3.chunk.js": "/react-cards/static/js/1.f867e0e3.chunk.js",
-  "static/js/1.f867e0e3.chunk.js.map": "/react-cards/static/js/1.f867e0e3.chunk.js.map",
-  "runtime~main.js": "/react-cards/static/js/runtime~main.fe733ad8.js",
-  "runtime~main.js.map": "/react-cards/static/js/runtime~main.fe733ad8.js.map",
-  "static/media/Yelp.svg": "/react-cards/static/media/Yelp.a6b4f360.svg",
-  "static/css/main.f02562ba.chunk.css.map": "/react-cards/static/css/main.f02562ba.chunk.css.map",
-  "index.html": "/react-cards/index.html",
-  "precache-manifest.52d964d7ae759039e34136837304698c.js": "/react-cards/precache-manifest.52d964d7ae759039e34136837304698c.js",
-  "service-worker.js": "/react-cards/service-worker.js"
+  "main.css": "/static/css/main.f02562ba.chunk.css",
+  "main.js": "/static/js/main.f661d6cf.chunk.js",
+  "main.js.map": "/static/js/main.f661d6cf.chunk.js.map",
+  "static/js/1.f867e0e3.chunk.js": "/static/js/1.f867e0e3.chunk.js",
+  "static/js/1.f867e0e3.chunk.js.map": "/static/js/1.f867e0e3.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/media/Yelp.svg": "/static/media/Yelp.a6b4f360.svg",
+  "static/css/main.f02562ba.chunk.css.map": "/static/css/main.f02562ba.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.a35247848ddb5d11fa5b5fe2e4564e2a.js": "/precache-manifest.a35247848ddb5d11fa5b5fe2e4564e2a.js",
+  "service-worker.js": "/service-worker.js"
 }
