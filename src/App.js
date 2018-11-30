@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './SamsungReactCard.css'
-import logo from './Yelp.svg';
+import logo from './yelp.png';
 export default class SamsungReactCard extends Component {
   constructor(props){
     super(props)
@@ -32,9 +32,8 @@ class CardBody extends React.Component {
     return (
       <div className="card-body">
         <p className="category"> Middle Eastern, Mediterranean</p> 
-        <p>{this.props.title}</p>
+        <p className="body-title">{this.props.title}</p>
         <p className="body-content">{this.props.text}</p>
-        <Button />
       </div>
     )
   }
